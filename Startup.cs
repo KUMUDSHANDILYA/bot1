@@ -29,7 +29,7 @@ namespace NL2SQLBotFrameworkBot
             //var allowedCallers = Configuration.GetSection("AllowedCallers").Get<List<string>>();
 
             // 2. Register AuthenticationConfiguration with allowed callers
-            services.AddSingleton<AuthenticationConfiguration>(sp =>
+            //services.AddSingleton<AuthenticationConfiguration>(sp =>
             //new AuthenticationConfiguration
              //   {
              //       ClaimsValidator = new AllowedCallersClaimsValidator(allowedCallers),
