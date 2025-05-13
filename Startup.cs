@@ -26,14 +26,14 @@ namespace NL2SQLBotFrameworkBot
             services.AddControllers().AddNewtonsoftJson();
 
             // 1. Read allowed callers from config
-            var allowedCallers = Configuration.GetSection("AllowedCallers").Get<List<string>>();
+            //var allowedCallers = Configuration.GetSection("AllowedCallers").Get<List<string>>();
 
             // 2. Register AuthenticationConfiguration with allowed callers
             services.AddSingleton<AuthenticationConfiguration>(sp =>
-                new AuthenticationConfiguration
-                {
-                    ClaimsValidator = new AllowedCallersClaimsValidator(allowedCallers),
-                });
+            //new AuthenticationConfiguration
+             //   {
+             //       ClaimsValidator = new AllowedCallersClaimsValidator(allowedCallers),
+             //   });
 
             // 3. Add required bot services
             services.AddSingleton<BotFrameworkAuthentication, ConfigurationBotFrameworkAuthentication>();
