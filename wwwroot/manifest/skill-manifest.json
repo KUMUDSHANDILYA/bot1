@@ -18,8 +18,8 @@
       "name": "default",
       "protocol": "BotFrameworkV3",
       "description": "Default endpoint for the Agent",
-      "endpointUrl": "https://mhbnbhwc-5000.inc1.devtunnels.ms/api/messages",
-      "msAppId": "527b692f-a870-410c-b828-524580902d52"
+      "endpointUrl": "https://manifest1-axc9c6cuetfbgued.canadacentral-01.azurewebsites.net/api/messages",
+      "msAppId": "3934f72f-b600-4473-928d-20578bc3785c"
     }
   ],
   "activities": {
