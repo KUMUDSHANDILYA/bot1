@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "oE6Cj9KMUIL+dfQvBZj6W7AuRDj+KWsqQneXIVRrX5Y=",
+  "Source": "NL2SQLBotFrameworkBot",
+  "BasePath": "_content/NL2SQLBotFrameworkBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NL2SQLBotFrameworkBot\\wwwroot",
+      "Source": "NL2SQLBotFrameworkBot",
+      "ContentRoot": "C:\\Users\\kshandilya\\Downloads\\NL2SQLBotFrameworkBot\\wwwroot\\",
+      "BasePath": "_content/NL2SQLBotFrameworkBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kshandilya\\Downloads\\NL2SQLBotFrameworkBot\\wwwroot\\manifest\\skill-manifest.json",
+      "SourceId": "NL2SQLBotFrameworkBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kshandilya\\Downloads\\NL2SQLBotFrameworkBot\\wwwroot\\",
+      "BasePath": "_content/NL2SQLBotFrameworkBot",
+      "RelativePath": "manifest/skill-manifest#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ma9tifysy3",
+      "Integrity": "TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\manifest\\skill-manifest.json"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "manifest/skill-manifest.json",
+      "AssetFile": "C:\\Users\\kshandilya\\Downloads\\NL2SQLBotFrameworkBot\\wwwroot\\manifest\\skill-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 07:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw="
+        }
+      ]
+    },
+    {
+      "Route": "manifest/skill-manifest.ma9tifysy3.json",
+      "AssetFile": "C:\\Users\\kshandilya\\Downloads\\NL2SQLBotFrameworkBot\\wwwroot\\manifest\\skill-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 07:19:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma9tifysy3"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest/skill-manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw="
+        }
+      ]
+    }
+  ]
+}

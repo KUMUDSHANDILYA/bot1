@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kshandilya\\Downloads\\NL2SQLBotFrameworkBot\\wwwroot\\manifest\\skill-manifest.json",
+      "PackagePath": "staticwebassets\\manifest\\skill-manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NL2SQLBotFrameworkBot.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.NL2SQLBotFrameworkBot.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.NL2SQLBotFrameworkBot.props",
+      "PackagePath": "build\\NL2SQLBotFrameworkBot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.NL2SQLBotFrameworkBot.props",
+      "PackagePath": "buildMultiTargeting\\NL2SQLBotFrameworkBot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.NL2SQLBotFrameworkBot.props",
+      "PackagePath": "buildTransitive\\NL2SQLBotFrameworkBot.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

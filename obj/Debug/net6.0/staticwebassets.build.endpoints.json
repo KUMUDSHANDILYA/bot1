@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "manifest/skill-manifest.json",
+      "AssetFile": "manifest/skill-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 07:19:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw="
+        }
+      ]
+    },
+    {
+      "Route": "manifest/skill-manifest.ma9tifysy3.json",
+      "AssetFile": "manifest/skill-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 07:19:27 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma9tifysy3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TuI+fGNH9BI/vrGgiJ9VBgNv0OHuBG9b8m0m3HV0fiw="
+        },
+        {
+          "Name": "label",
+          "Value": "manifest/skill-manifest.json"
+        }
+      ]
+    }
+  ]
+}

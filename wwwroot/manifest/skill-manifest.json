@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.botframework.com/schemas/skills/skill-manifest-2.0.0.json",
+  "$id": "HelloAgentSdkSkill",
+  "name": "HelloAgentSdkSkill",
+  "version": "1.0",
+  "description": "This is a sample Agent that can be called by Copilot Studio",
+  "publisherName": "Microsoft",
+  "privacyUrl": "https://echoskillbot.contoso.com/privacy.html",
+  "copyright": "Copyright (c) Microsoft Corporation. All rights reserved.",
+  "license": "",
+  "iconUrl": "https://echoskillbot.contoso.com/icon.png",
+  "tags": [
+    "sample",
+    "skill"
+  ],
+  "endpoints": [
+    {
+      "name": "default",
+      "protocol": "BotFrameworkV3",
+      "description": "Default endpoint for the Agent",
+      "endpointUrl": "https://mhbnbhwc-5000.inc1.devtunnels.ms/api/messages",
+      "msAppId": "527b692f-a870-410c-b828-524580902d52"
+    }
+  ],
+  "activities": {
+    "message": {
+      "type": "message",
+      "description": "Echo messages from user"
+    }
+  }
+}
